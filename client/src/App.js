@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import React from 'react';
-import { HomeLayout } from './layout/HomeLayout';
+import HomeLayout from './layout/HomeLayout';
 
 function App() {
   

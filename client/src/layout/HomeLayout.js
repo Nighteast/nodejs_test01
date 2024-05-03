@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
-export function HomeLayout() {
+function HomeLayout() {
     const [message, setMessage] = useState('');
 
     useEffect(() => {
@@ -21,3 +21,5 @@ export function HomeLayout() {
       </div>
     )
 }
+
+export default HomeLayout;
