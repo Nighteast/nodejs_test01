@@ -16,9 +16,20 @@ function HomeLayout() {
     }, []);
     
     return (
-      <div className="App">
-        <h1>Server says: {message || 'Loading...'}</h1>
-      </div>
+      <>
+        <div className="App">
+          <h1>Server says: {message || 'Loading...'}</h1>
+        </div>
+        <div className="test1">
+          <a>link1</a>
+        </div>
+        <div className="test2">
+          <a>link2</a>
+        </div>
+        <div className="test3">
+          <a>link3</a>
+        </div>
+      </>
     )
 }
 
