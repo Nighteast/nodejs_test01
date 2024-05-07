@@ -1,8 +1,8 @@
 import React from 'react';
 
-function test2() {
+function Test2() {
   return (
-    <div>test2</div>
+    <div>Test2</div>
   )
 }
-export default test2;
+export default Test2;
