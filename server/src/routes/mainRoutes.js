@@ -1,16 +1,16 @@
-import { Router } from 'express';
-const routes = new Router();
+const express = require('express');
+const router = express.Router();
 
-routes.get('/', (req, res) => {
+router.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-routes.get('/api/message', (req, res) => {
+router.get('/api/message', (req, res) => {
     res.json({ message: 'Hello from Node.js server!' });
 });
 
-routes.get('/test/message1', (req, res) => {
+router.get('/test/message1', (req, res) => {
     res.json({ testMessage1: 'testMessage1 response' });
 });
 
-module.exports = routes;
+module.exports = router;
